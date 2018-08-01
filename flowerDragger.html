@@ -12,7 +12,7 @@
 <button onclick="getFlower()">Get Flower</button>
 <button onclick="removeFlower()">Remove Flower</button>
 <canvas id="c"></canvas>
-<img src="dog.jpg" id="my-image">
+<img src="flower.png" id="my-image">
 <script>
 var canvas = new fabric.Canvas('c',
 {
@@ -25,6 +25,7 @@ var imgInstance = new fabric.Image(imgElement, {
   top: 100,
   angle: 30,
   opacity: 0.85
+
 });
 // canvas.add(imgInstance);
 function getFlower(){
